@@ -28,9 +28,7 @@ public class StartFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
         final NavController navController = Navigation.findNavController(view);
-
         Button button = view.findViewById(R.id.startGameButton);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
